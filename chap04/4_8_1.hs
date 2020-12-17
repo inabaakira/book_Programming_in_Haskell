@@ -37,3 +37,7 @@ b `myor` c | b /= c = True
 -- 5
 myand :: Bool -> Bool -> Bool
 a `myand` b = if a then b else False
+
+-- 6
+multi :: Int -> Int -> Int -> Int
+multi = \x -> (\y -> (\z -> x * y * z))
