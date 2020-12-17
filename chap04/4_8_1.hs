@@ -31,5 +31,9 @@ b `myor` c | b /= c = True
            | b == c = b
 
 -- 4
+-- myand :: Bool -> Bool -> Bool
+-- b `myand` c = if b && c then b else False
+
+-- 5
 myand :: Bool -> Bool -> Bool
-b `myand` c = if b && c then b else False
+a `myand` b = if a then b else False
